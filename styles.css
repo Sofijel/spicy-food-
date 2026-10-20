@@ -1,0 +1,42 @@
+body {
+    margin: 0
+}
+
+p {
+     color: black;
+     font-size: medium;
+     
+    
+    }
+
+    h1, h2, h3, h4 { color: black;
+    align-items: center;}
+.flex{
+    display: flex; 
+    gap: 1em;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+}
+
+#splash{
+    background-image: url("./Images/01_main_banner.jpg"); 
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#splash h2, h3 {
+    color:white;
+
+}
+#location{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

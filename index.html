@@ -4,52 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dear Pimientos</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
 <!-- navbar -->
- <section>
+ <section class="navigation">
     <!-- name -->
      <h1>Barcelona's pimientos bar</h1>
         <!-- nav menu -->
-         </nav>
+         <nav class="flex">
             <!-- item 1 -->
-             <a href>location</a href>
+             <a href="#location">location</a>
             <!-- item 1 -->
-             <a href>gallery</a href>
+             <a href="#gallery">gallery</a>
             <!-- item 1 -->
-            <a href>pimientos</a href>
+            <a href="#pimientos">pimientos</a>
             <!-- item 1 -->
-            <a href>Team</a href>
-
-             
+            <a href="#team">Team</a>
+    
     <!--  end nav menu -->
+      </nav>
 <!-- end navbar -->
 </section>
 
 <!-- splash screen container -->
- <section>
-    <!-- image -->
-    <img src="./Images/05_tapas_and_winecopy.jpg" alt="pimientos bar interior"/>
+ <section id="splash">
+    
+
     <!-- heading -->
-     <h1>Local Pimientos Bar</h1>
+     <h2>Local Pimientos Bar</h2>
     <!-- subheading -->
-     <h2>We serve it salty</h2>
-    <!-- button -->
-     <a href>Discover our Pimientos<a/href>
+     <h3>serve it salty</h3>
+     <!--button-->
+     <button>Check our Pimientos</button>
+    
 <!-- end splash screen recorder -->
  </section>
 
 <!-- maps section -->
- <section>
+ <section id="location">
  <!-- maps location title -->
-  <title>Barcelona's Pimientos Map</title>
+  <h2>Barcelona's Pimientos Map</h2>
+  
     <!-- back to top button -->
      <a href="#top">Top</a>
      <!-- google maps embedding -->
       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d23945.159363375195!2d2.1528575769343172!3d41.3926590335735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spimientos%20del%20padron!5e0!3m2!1sen!2ses!4v1792411776957!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
       <!-- plain random text section -->
-       <div>The Magic of Pimientos de Padrón 🌶️
+       <p> class="greenColor"The Magic of Pimientos de Padrón 🌶️
 Little green peppers, dancing in a pan,
 Sizzling and popping as fast as they can.
 A sprinkle of salt, a splash of delight,
@@ -61,53 +64,138 @@ A spicy surprise you won't forget.
 From Spanish gardens to plates with pride,
 A tiny adventure is waiting inside.
 So grab a pepper and take a bite,
-Pimientos de Padrón make everything bright!</div>
+Pimientos de Padrón make everything bright!</p>
 <!-- end of maps section -->
  </section>
 
 <!-- Gallery section -->
- <section>
+ <section id="gallery">
  <!-- Gallery title -->
-  <title>Gallery</title>
-   
+  <h2>Gallery</h2>
+  <!-- Back to top button -->
+     <a href="#top">Top</a>
+     <!-- picture 1 -->
+<img src="./Images/02_street_attitude.jpg" alt="Signature pimientos"/>
+      <!-- picture 2 -->
+<img src="./Images/03_pepper_roulette.jpg" alt="Signature pimientos"/>
+       <!-- picture 3 -->
+<img src="./Images/04_barcelona_after_dark.jpg" alt="Signature pimientos"/>
+        <!-- picture 4 -->
+   <img src="./Images/05_sunshine_sea_salt.jpg" alt="Signature pimientos"/>
 
 <!-- end of gallery section -->
  </section>
 
 <!-- Pimientos description section -->
- <section>
+ <section id="pimientos">
     <!-- Back to top button -->
      <a href="#top">Top</a>
-     <!-- product 1 description section -->
-    <div>Our signature Pimientos are here to spice you up.</div>
-      <!-- product picture 1 -->
-       <img src="./Images/01_signature_padron_peppers.jpg" alt="Signature pimientos"/></picture>
-       <!-- product picture text 1 -->
+     <!--- pimientos section -->
+     
+     
+     <!-- product 1 title -->
+      <article>
+    <h3>Signature Pimientos</h3>
+      <!-- product 1 picture -->
+       <img src="./Images/06_signature_pimiento.jpg" alt="Signature pimientos"/>
+       <!-- product 1 text -->
+        <p>Our signature Pimiento is here to change the way you see life. From dim and mild to
+            bold and crazy. Enjoy the new you.
+        </p>
+        </article>
+       <!-- product 2 title -->
+        <article>
+    <h3>Sweet Pimientos</h3>
+      <!-- product 2 picture -->
+       <img src="./Images/07_sweet_pimiento.jpg" alt="Signature pimientos"/>
+       <!-- product 2 text -->
+        <p>Our Sweet Pimientos are made for the sweet tooth carriers. If you like sweet
+            things, you will love this one.
+        </p>
+        </article>
+        <!-- product 3 title -->
+         <article>
+    <h3>San Sebastian's Pimientos</h3>
+      <!-- product 3 picture -->
+       <img src="./Images/08_san_sebastian_pimiento.jpg" alt="Signature pimientos"/>
+       <!-- product 3 text -->
+        <p>Straight from the Basque country, you will enjoy this salty and pimpy Pimientos,
+            a very rare and special treat for those who have a special relationship to Donostia.. Enjoy!
+        </p>
+        </article>
+        <!-- product 4 title -->
+         <article>
+    <h3>Rooftop Pimientos</h3>
+      <!-- product 4 picture -->
+       <img src="./Images/09_rooftop_pimiento.jpg" alt="Signature pimientos"/>
+       <!-- product 4 text -->
+        <p>Meet our new Pimiento variety that only grow on rooftops, especially Barcelona's.
+            They drink at night and subathe during the day. If that is you, then these are the
+            right treats for you.
+        </p>
+        </article>
+        <!-- product 5 title -->
+         <article>
+    <h3>Andalusia's Pimientos</h3>
+      <!-- product 5 picture -->
+       <img src="./Images/10_andalusia_pimiento.jpg" alt="Signature pimientos"/>
+       <!-- product 5 text -->
+        <p>Straight from the gardens of Andalusia's region, enjoy the works of the alchemists
+            of the south that turn earth, sun and water into flavors.. Beware if you try,
+            you will never come back.
+        </p>
+        </article>
+        <!-- product 6 title -->
+         <article>
+    <h3>Camino de Santiago Pimientos</h3>
+      <!-- product 6 picture -->
+       <img src="./Images/11_camino_de_santiago_pimiento.jpg" alt="Signature pimientos"/>
+       <!-- product 6 text -->
+        <p>Our special Camino Pimiento exclusively grows on Camino's de Santiago pilgrimm
+            famous track. Only way to harvest is to walk the way...
+        </p>
+        </article>
         
-        <!-- picture title 2 -->
-      <!-- picture 2 -->
-       <!-- picture text 2 -->
 <!-- end of beer description section -->
+ </section>
 
 <!-- Team pictures section -->
+ <section id="team">
  <!-- team section title -->
+  <h2>Team</h2>
+  
+
     <!-- back to top button -->
+     <a href="#top">Top</a>
      <!-- teamate picture 1 -->
+             <img src="./Images/12_teammate_chef_flipping_peppers.jpg" alt="Signature pimientos"/>
+
       <!-- teamate picture 2 -->
+              <img src="./Images/13_teammate_server_tapas.jpg" alt="Signature pimientos"/>
        <!-- teamate picture 3 -->
+               <img src="./Images/14_teammate_bartender_pouring.jpg" alt="Signature pimientos"/>
     <!-- teamate picture 4 -->
+            <img src="./Images/15_teammate_chef_finishing.jpg" alt="Signature pimientos"/>
      <!-- teamate picture 5 -->
+             <img src="./Images/16_teammate_terrace_service.jpg" alt="Signature pimientos"/>
       <!-- teamate picture 6 -->
+              <img src="./Images/17_teammate_kitchen_pass.jpg" alt="Signature pimientos"/>
 <!-- end of teamate pics section -->
+ </section>
 
 <!-- footer section -->
+ <footer>
     <!-- copyright line -->
+     <p>Copyrights Pimiento's Bar. Created at Barcelona Code School</p>
      <!-- address line -->
+      <p>Carrer del Pimientos, 2503 Barcelona, Spain</p>
       <!-- phone number line -->
+       <p> 0034 654 76 36 098</p>
        <!-- we open everyday from dusk till down -->
+        <p>We open whenever you need Pimientos</p>
 <!-- end of footer section -->
-
+ </footer>
     
-<!-- 
+
 </body>
 </html>
