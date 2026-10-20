@@ -52,7 +52,7 @@ h4 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    background-attachment: fixed;
     min-height: 90vh;
 
     display: flex;
@@ -115,9 +115,9 @@ iframe {
 #pimientos,
 #team {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 48px 24px;
+  max-width: none;
+  margin: 0;
+  padding: 48px 0;
 }
 h2,
 h3 {
@@ -196,7 +196,7 @@ a[href="#top"] {
   #gallery,
   #pimientos,
   #team {
-    padding: 36px 16px; /* Reduce the space around section content. */
+    padding: 36px 0; /* Reduce the space around section content. */
   }
 
   .gallerypics,
